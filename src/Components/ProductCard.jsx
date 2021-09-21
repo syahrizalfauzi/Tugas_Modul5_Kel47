@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Modal from "react-modal";
+import './ProductCard.css';
+
 
 const ProductCard = (props) => {
   const [showDesc, setShowDesc] = useState(false);
